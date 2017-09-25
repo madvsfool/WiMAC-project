@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="144B6C13E460A340DCDCBF0DD39CD2FB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7D5BC35C1AC001909F116BC12AF9B9D9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
 		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@4c6934a62c344115b5cbd422bd7b545d" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@fa320549550d4b0b8b39529cff1cc850" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__IQ\ Imbalance\.gtype" />
 			<TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__niUsrpRio\ Session\.gtype" />
@@ -25,7 +25,7 @@
 				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@4c6934a62c344115b5cbd422bd7b545d" Id="209" Name="session">
+		<DataItem DataType="@fa320549550d4b0b8b39529cff1cc850" Id="209" Name="session">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0</Field1>
@@ -128,6 +128,14 @@
 						</Cluster>
 					</Field10>
 					<Field11>0x41A7D78400000000</Field11>
+					<Field12>0</Field12>
+					<Field13>0</Field13>
+					<Field14>0</Field14>
+					<Field15>0</Field15>
+					<Field16>0</Field16>
+					<Field17>0</Field17>
+					<Field18>0</Field18>
+					<Field19>0</Field19>
 				</Cluster>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -143,7 +151,7 @@
 			<DefaultTarget />
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="13" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Indicator" Id="14" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4c6934a62c344115b5cbd422bd7b545d" Height="[float]4302" Id="15" Label="[UIModel]212" Left="[float]100" Top="[float]23" Value="{DataItemBinding Id=209}" Width="[float]267" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@fa320549550d4b0b8b39529cff1cc850" Height="[float]4806" Id="15" Label="[UIModel]212" Left="[float]169" Top="[float]44" Value="{DataItemBinding Id=209}" Width="[float]267" xmlns="http://www.ni.com/PanelCommon">
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="18" Label="[UIModel]30" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]74" Value="{ClusterBinding FieldName=send\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="19" Label="[UIModel]31" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]137" Value="{ClusterBinding FieldName=receive\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="20" Label="[UIModel]32" Left="[float]5" RefnumType="[Type]@42534761e2f34c948bbbcda405890c24" Top="[float]200" Value="{ClusterBinding FieldName=receive\ throughput\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -156,7 +164,7 @@
 						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b99f47fc6b7a46ddb7f8aa38d3732bd2" Height="[float]443" Id="24" Label="[UIModel]36" Left="[float]5" Top="[float]448" Value="{ClusterBinding FieldName=FlexRIO\ TX\ Characterization\ Data}" Width="[float]150">
 							<ArrayViewer ArrayElement="[UIModel]99" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]2" Height="[float]52" Id="39" Label="[UIModel]43" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]23" Value="{ClusterBinding FieldName=Attenuation\ Table\ [dB]}" Width="[float]114">
 								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="99" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]22" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="99" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" MinHeight="[float]22" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							</ArrayViewer>
 							<ArrayViewer ArrayElement="[UIModel]100" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="40" Label="[UIModel]44" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]95" Value="{ClusterBinding FieldName=Frequencies\ [Hz]}" Width="[float]114">
 								<p.DefaultElementValue>0x0</p.DefaultElementValue>
@@ -358,7 +366,7 @@
 										<Field4>null</Field4>
 									</Cluster>
 								</p.DefaultElementValue>
-								<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7138889cf98142969c95682ccec6de4b" Height="[float]421" Id="3889" Label="[UIModel]3904" Left="[float]19" Top="[float]36" Width="[float]240" p7:ControlDefinitionChecksum="PPRu5GhbLJNBREaInZbQ+w==">
+								<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7138889cf98142969c95682ccec6de4b" Height="[float]421" Id="3889" Label="[UIModel]3904" Left="[float]53" Top="[float]7" Width="[float]240" p7:ControlDefinitionChecksum="PPRu5GhbLJNBREaInZbQ+w==">
 									<p7:p.TypeDefinitionTargets>
 										<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__Characterization\ Data\.gtype:ControlDefinition" />
 									</p7:p.TypeDefinitionTargets>
@@ -393,7 +401,7 @@
 									<p7:Label Height="[float]16" Id="3901" LabelOwner="[UIModel]3897" Left="[float]8" Text="[string]Frequencies [Hz]" Top="[float]3" Width="[float]88" />
 									<p7:Label Height="[float]16" Id="3902" LabelOwner="[UIModel]3898" Left="[float]8" Text="[string]IQ Imbalance Table" Top="[float]226" Width="[float]102" />
 									<p7:Label Height="[float]16" Id="3903" LabelOwner="[UIModel]3899" Left="[float]9" Text="[string]Measured Gains[dB]" Top="[float]114" Width="[float]107" />
-									<p7:Label Height="[float]16" Id="3904" IsVisualChild="[bool]False" LabelOwner="[UIModel]3889" Left="[float]19" Text="[string]Child" Top="[float]13" Width="[float]114" />
+									<p7:Label Height="[float]16" Id="3904" IsVisualChild="[bool]False" LabelOwner="[UIModel]3889" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]114" />
 								</p7:Cluster>
 							</p7:ArrayViewer>
 							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3804" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3820" Left="[float]5" MinHeight="[float]22" Top="[float]2472" Value="{ClusterBinding FieldName=FPGA\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -405,31 +413,31 @@
 							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3810" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3826" Left="[float]5" MinHeight="[float]22" Top="[float]2742" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3811" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3827" Left="[float]5" MinHeight="[float]22" Top="[float]2787" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3812" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3828" Left="[float]5" MinHeight="[float]22" Top="[float]2832" Value="{ClusterBinding FieldName=Daughterboard\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Id="3813" LabelOwner="[UIModel]3790" Left="[float]5" Text="[string]FPGA Interface" Top="[float]0" />
-							<p7:Label Id="3814" LabelOwner="[UIModel]3791" Left="[float]5" Text="[string]RIO Interface Number" Top="[float]49" />
-							<p7:Label Id="3815" LabelOwner="[UIModel]3792" Left="[float]5" Text="[string]Data Clock Rate" Top="[float]94" />
-							<p7:Label Id="3816" LabelOwner="[UIModel]3793" Left="[float]5" Text="[string]FPGA Data Clock Rate" Top="[float]139" />
-							<p7:Label Id="3817" LabelOwner="[UIModel]3798" Left="[float]5" Text="[string]DB Queues" Top="[float]468" />
-							<p7:Label Id="3818" LabelOwner="[UIModel]3799" Left="[float]5" Text="[string]Characterization Data Valid?" Top="[float]531" />
-							<p7:Label Id="3819" LabelOwner="[UIModel]3803" Left="[float]5" Text="[string]Characterization Data" Top="[float]2021" />
-							<p7:Label Id="3820" LabelOwner="[UIModel]3804" Left="[float]5" Text="[string]FPGA Current Version" Top="[float]2449" />
-							<p7:Label Id="3821" LabelOwner="[UIModel]3805" Left="[float]5" Text="[string]FPGA Oldest Compatible Version" Top="[float]2494" />
-							<p7:Label Id="3822" LabelOwner="[UIModel]3806" Left="[float]5" Text="[string]Fixed Logic Current Version" Top="[float]2539" />
-							<p7:Label Id="3823" LabelOwner="[UIModel]3807" Left="[float]5" Text="[string]Fixed Logic Oldest Compatible Version" Top="[float]2584" />
-							<p7:Label Id="3824" LabelOwner="[UIModel]3808" Left="[float]5" Text="[string]FPGA Radio Settings Bus Current Version" Top="[float]2629" />
-							<p7:Label Id="3825" LabelOwner="[UIModel]3809" Left="[float]5" Text="[string]FPGA Radio Settings Bus Oldest Compatible Version" Top="[float]2674" />
-							<p7:Label Id="3826" LabelOwner="[UIModel]3810" Left="[float]5" Text="[string]FPGA Board Config Current Version" Top="[float]2719" />
-							<p7:Label Id="3827" LabelOwner="[UIModel]3811" Left="[float]5" Text="[string]FPGA Board Config Oldest Compatible Version" Top="[float]2764" />
-							<p7:Label Id="3828" LabelOwner="[UIModel]3812" Left="[float]5" Text="[string]Daughterboard Clock Rate" Top="[float]2809" />
-							<p7:Label Id="3829" LabelOwner="[UIModel]3794" Left="[float]5" Text="[string]Global Settings Register Bus" Top="[float]207" />
-							<p7:Label Id="3830" LabelOwner="[UIModel]3795" Left="[float]5" Text="[string]Radio 0 Settings Register Bus" Top="[float]279" />
-							<p7:Label Id="3831" LabelOwner="[UIModel]3796" Left="[float]5" Text="[string]Radio 1 Settings Register Bus" Top="[float]351" />
-							<p7:Label Id="3832" LabelOwner="[UIModel]3797" Left="[float]5" Text="[string]Radio Settings Bus Semaphore" Top="[float]423" />
+							<p7:Label Height="[float]16" Id="3813" LabelOwner="[UIModel]3790" Left="[float]5" Text="[string]FPGA Interface" Top="[float]0" Width="[float]79" />
+							<p7:Label Height="[float]16" Id="3814" LabelOwner="[UIModel]3791" Left="[float]5" Text="[string]RIO Interface Number" Top="[float]49" Width="[float]116" />
+							<p7:Label Height="[float]16" Id="3815" LabelOwner="[UIModel]3792" Left="[float]5" Text="[string]Data Clock Rate" Top="[float]94" Width="[float]84" />
+							<p7:Label Height="[float]16" Id="3816" LabelOwner="[UIModel]3793" Left="[float]5" Text="[string]FPGA Data Clock Rate" Top="[float]139" Width="[float]116" />
+							<p7:Label Height="[float]16" Id="3817" LabelOwner="[UIModel]3798" Left="[float]5" Text="[string]DB Queues" Top="[float]468" Width="[float]59" />
+							<p7:Label Height="[float]16" Id="3818" LabelOwner="[UIModel]3799" Left="[float]5" Text="[string]Characterization Data Valid?" Top="[float]531" Width="[float]149" />
+							<p7:Label Height="[float]16" Id="3819" LabelOwner="[UIModel]3803" Left="[float]5" Text="[string]Characterization Data" Top="[float]2021" Width="[float]114" />
+							<p7:Label Height="[float]16" Id="3820" LabelOwner="[UIModel]3804" Left="[float]5" Text="[string]FPGA Current Version" Top="[float]2449" Width="[float]115" />
+							<p7:Label Height="[float]16" Id="3821" LabelOwner="[UIModel]3805" Left="[float]5" Text="[string]FPGA Oldest Compatible Version" Top="[float]2494" Width="[float]174" />
+							<p7:Label Height="[float]16" Id="3822" LabelOwner="[UIModel]3806" Left="[float]5" Text="[string]Fixed Logic Current Version" Top="[float]2539" Width="[float]146" />
+							<p7:Label Height="[float]16" Id="3823" LabelOwner="[UIModel]3807" Left="[float]5" Text="[string]Fixed Logic Oldest Compatible Version" Top="[float]2584" Width="[float]205" />
+							<p7:Label Height="[float]16" Id="3824" LabelOwner="[UIModel]3808" Left="[float]5" Text="[string]FPGA Radio Settings Bus Current Version" Top="[float]2629" Width="[float]217" />
+							<p7:Label Height="[float]16" Id="3825" LabelOwner="[UIModel]3809" Left="[float]5" Text="[string]FPGA Radio Settings Bus Oldest Compatible Version" Top="[float]2674" Width="[float]276" />
+							<p7:Label Height="[float]16" Id="3826" LabelOwner="[UIModel]3810" Left="[float]5" Text="[string]FPGA Board Config Current Version" Top="[float]2719" Width="[float]188" />
+							<p7:Label Height="[float]16" Id="3827" LabelOwner="[UIModel]3811" Left="[float]5" Text="[string]FPGA Board Config Oldest Compatible Version" Top="[float]2764" Width="[float]247" />
+							<p7:Label Height="[float]16" Id="3828" LabelOwner="[UIModel]3812" Left="[float]5" Text="[string]Daughterboard Clock Rate" Top="[float]2809" Width="[float]141" />
+							<p7:Label Height="[float]16" Id="3829" LabelOwner="[UIModel]3794" Left="[float]5" Text="[string]Global Settings Register Bus" Top="[float]207" Width="[float]149" />
+							<p7:Label Height="[float]16" Id="3830" LabelOwner="[UIModel]3795" Left="[float]5" Text="[string]Radio 0 Settings Register Bus" Top="[float]279" Width="[float]155" />
+							<p7:Label Height="[float]16" Id="3831" LabelOwner="[UIModel]3796" Left="[float]5" Text="[string]Radio 1 Settings Register Bus" Top="[float]351" Width="[float]155" />
+							<p7:Label Height="[float]16" Id="3832" LabelOwner="[UIModel]3797" Left="[float]5" Text="[string]Radio Settings Bus Semaphore" Top="[float]423" Width="[float]162" />
 							<p7:Label Height="[float]16" Id="3833" LabelOwner="[UIModel]3800" Left="[float]5" Text="[string]EEPROM Header" Top="[float]627" Width="[float]88" />
 							<p7:Label Height="[float]16" Id="3834" LabelOwner="[UIModel]3801" Left="[float]5" Text="[string]Device Data Header" Top="[float]1344" Width="[float]105" />
 							<p7:Label Height="[float]16" Id="3835" LabelOwner="[UIModel]3802" Left="[float]5" Text="[string]EEPROM Characterization Header" Top="[float]1715" Width="[float]177" />
 						</Cluster>
-						<Label Id="3916" LabelOwner="[UIModel]3789" Left="[float]5" Text="[string]USRP session" Top="[float]1357" />
+						<Label Height="[float]16" Id="3916" LabelOwner="[UIModel]3789" Left="[float]5" Text="[string]USRP session" Top="[float]1357" Width="[float]71" />
 						<Label Height="[float]16" Id="30" LabelOwner="[UIModel]18" Left="[float]5" Text="[string]send queue" Top="[float]51" Width="[float]62" />
 						<Label Height="[float]16" Id="31" LabelOwner="[UIModel]19" Left="[float]5" Text="[string]receive queue" Top="[float]114" Width="[float]74" />
 						<Label Height="[float]16" Id="32" LabelOwner="[UIModel]20" Left="[float]5" Text="[string]receive throughput queue" Top="[float]177" Width="[float]138" />
@@ -443,17 +451,33 @@
 								<p7:TypeDefinitionTarget TargetName="\802\.11\ FGPA\ Reference\.gtype:ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
 						</OpaqueRefnum>
-						<Label Height="[float]16" Id="3779" LabelOwner="[UIModel]3778" Left="[float]5" Text="[string]FPGA interface" Top="[float]2" Width="[float]84" />
+						<Label Height="[float]16" Id="3779" LabelOwner="[UIModel]3778" Left="[float]5" Text="[string]FPGA interface" Top="[float]2" Width="[float]78" />
 						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3647" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]3648" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" Top="[float]4270" Value="{ClusterBinding FieldName=RF\ loop\ clock\ frequency}" ValueFormatter="[string]LVSI:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]16" Id="3648" LabelOwner="[UIModel]3647" Left="[float]5" Text="[string]RF loop clock frequency" Top="[float]4247" Width="[float]127" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3917" Label="[UIModel]3918" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4315" Value="{ClusterBinding FieldName=send\ queue_2}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3918" LabelOwner="[UIModel]3917" Left="[float]5" Text="[string]send queue_2" Top="[float]4292" Width="[float]74" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3919" Label="[UIModel]3920" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4378" Value="{ClusterBinding FieldName=send\ queue_3}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3920" LabelOwner="[UIModel]3919" Left="[float]5" Text="[string]send queue_3" Top="[float]4355" Width="[float]74" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3921" Label="[UIModel]3922" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4441" Value="{ClusterBinding FieldName=send\ queue_4}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3922" LabelOwner="[UIModel]3921" Left="[float]5" Text="[string]send queue_4" Top="[float]4418" Width="[float]74" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3923" Label="[UIModel]3924" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4504" Value="{ClusterBinding FieldName=send\ queue_5}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3924" LabelOwner="[UIModel]3923" Left="[float]5" Text="[string]send queue_5" Top="[float]4481" Width="[float]74" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3925" Label="[UIModel]3926" Left="[float]5" RefnumType="[Type]@6b63cfc276b84fa8a0fb3fac386e6220" Top="[float]4567" Value="{ClusterBinding FieldName=UDP\ Receiver_2}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3926" LabelOwner="[UIModel]3925" Left="[float]5" Text="[string]UDP Receiver_2" Top="[float]4544" Width="[float]83" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3927" Label="[UIModel]3928" Left="[float]5" RefnumType="[Type]@6b63cfc276b84fa8a0fb3fac386e6220" Top="[float]4630" Value="{ClusterBinding FieldName=UDP\ Receiver_3}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3928" LabelOwner="[UIModel]3927" Left="[float]5" Text="[string]UDP Receiver_3" Top="[float]4607" Width="[float]83" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3929" Label="[UIModel]3930" Left="[float]5" RefnumType="[Type]@6b63cfc276b84fa8a0fb3fac386e6220" Top="[float]4693" Value="{ClusterBinding FieldName=UDP\ Receiver_4}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3930" LabelOwner="[UIModel]3929" Left="[float]5" Text="[string]UDP Receiver_4" Top="[float]4670" Width="[float]83" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3931" Label="[UIModel]3932" Left="[float]5" RefnumType="[Type]@6b63cfc276b84fa8a0fb3fac386e6220" Top="[float]4756" Value="{ClusterBinding FieldName=UDP\ Receiver_5}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="3932" LabelOwner="[UIModel]3931" Left="[float]5" Text="[string]UDP Receiver_5" Top="[float]4733" Width="[float]83" />
 					</Cluster>
-					<Label Height="[float]16" Id="212" LabelOwner="[UIModel]15" Left="[float]100" Text="[string]session" Top="[float]0" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Height="[float]16" Id="212" LabelOwner="[UIModel]15" Left="[float]169" Text="[string]session" Top="[float]21" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="4c6934a62c344115b5cbd422bd7b545d">
+		<p.TypeReference TypeId="fa320549550d4b0b8b39529cff1cc850">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="FPGA interface">
@@ -677,6 +701,102 @@
 						</DataType>
 					</Field>
 					<Field FieldAccessPolicy="ReadWrite" Name="RF loop clock frequency" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="send queue_2">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="send queue_3">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="send queue_4">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="send queue_5">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UDP Receiver_2">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="6" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UDP Receiver_3">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="6" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UDP Receiver_4">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="6" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UDP Receiver_5">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="6" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
 				</Members>
 			</Composite>
 		</p.TypeReference>
