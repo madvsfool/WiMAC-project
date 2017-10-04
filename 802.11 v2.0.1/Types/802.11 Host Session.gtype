@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7D5BC35C1AC001909F116BC12AF9B9D9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FE2336DFBF7A9AE988C8B223D92E0B0B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
 		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@fa320549550d4b0b8b39529cff1cc850" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@fde022d0115347b9841ac784e72f0f62" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__IQ\ Imbalance\.gtype" />
 			<TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__niUsrpRio\ Session\.gtype" />
@@ -25,7 +25,7 @@
 				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@fa320549550d4b0b8b39529cff1cc850" Id="209" Name="session">
+		<DataItem DataType="@fde022d0115347b9841ac784e72f0f62" Id="209" Name="session">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0</Field1>
@@ -136,6 +136,10 @@
 					<Field17>0</Field17>
 					<Field18>0</Field18>
 					<Field19>0</Field19>
+					<Field20>0</Field20>
+					<Field21>0</Field21>
+					<Field22>0</Field22>
+					<Field23>0</Field23>
 				</Cluster>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -151,7 +155,7 @@
 			<DefaultTarget />
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="13" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Indicator" Id="14" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@fa320549550d4b0b8b39529cff1cc850" Height="[float]4806" Id="15" Label="[UIModel]212" Left="[float]169" Top="[float]44" Value="{DataItemBinding Id=209}" Width="[float]267" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@fde022d0115347b9841ac784e72f0f62" Height="[float]5058" Id="15" Label="[UIModel]212" Left="[float]179" Top="[float]23" Value="{DataItemBinding Id=209}" Width="[float]267" xmlns="http://www.ni.com/PanelCommon">
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="18" Label="[UIModel]30" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]74" Value="{ClusterBinding FieldName=send\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="19" Label="[UIModel]31" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]137" Value="{ClusterBinding FieldName=receive\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="20" Label="[UIModel]32" Left="[float]5" RefnumType="[Type]@42534761e2f34c948bbbcda405890c24" Top="[float]200" Value="{ClusterBinding FieldName=receive\ throughput\ queue}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -206,11 +210,11 @@
 							</ArrayViewer>
 							<ArrayViewer ArrayElement="[UIModel]104" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="48" Label="[UIModel]52" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]95" Value="{ClusterBinding FieldName=Frequencies\ [Hz]}" Width="[float]114">
 								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="104" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]22" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="104" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" MinHeight="[float]22" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							</ArrayViewer>
 							<ArrayViewer ArrayElement="[UIModel]2988" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]152" Id="49" IsFixedSize="[bool]False" Label="[UIModel]53" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]151" Value="{ClusterBinding FieldName=IQ\ Imbalance\ Table}" Width="[float]132">
 								<p.DefaultElementValue>0x0_0x0_0x0;0x0_</p.DefaultElementValue>
-								<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@eac22929f98b4c49a373b0c8188e7ba3" Height="[float]148" Id="2988" Label="[UIModel]2995" Left="[float]0" Top="[float]-1" Width="[float]154" p9:ControlDefinitionChecksum="qYZd8ozG8qUhM7M3FDa4AA==" xmlns:p9="http://www.ni.com/PanelCommon">
+								<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@eac22929f98b4c49a373b0c8188e7ba3" Height="[float]148" Id="2988" Label="[UIModel]2995" Left="[float]53" Top="[float]7" Width="[float]154" p9:ControlDefinitionChecksum="qYZd8ozG8qUhM7M3FDa4AA==" xmlns:p9="http://www.ni.com/PanelCommon">
 									<p9:p.TypeDefinitionTargets>
 										<p9:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__IQ\ Imbalance\.gtype:ControlDefinition" />
 									</p9:p.TypeDefinitionTargets>
@@ -220,7 +224,7 @@
 									<p9:Label Height="[float]16" Id="2992" LabelOwner="[UIModel]2989" Left="[float]5" Text="[string]Gain Imbalance [linear]" Top="[float]0" Width="[float]122" />
 									<p9:Label Height="[float]16" Id="2993" LabelOwner="[UIModel]2990" Left="[float]5" Text="[string]Phase Imbalance [radians]" Top="[float]45" Width="[float]138" />
 									<p9:Label Height="[float]16" Id="2994" LabelOwner="[UIModel]2991" Left="[float]5" Text="[string]Offset" Top="[float]90" Width="[float]32" />
-									<p9:Label Height="[float]16" Id="2995" IsVisualChild="[bool]False" LabelOwner="[UIModel]2988" Left="[float]0" Text="[string]Child" Top="[float]-24" Width="[float]70" />
+									<p9:Label Height="[float]16" Id="2995" IsVisualChild="[bool]False" LabelOwner="[UIModel]2988" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]70" />
 								</Cluster>
 							</ArrayViewer>
 							<ArrayViewer ArrayElement="[UIModel]106" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]2" Height="[float]110" Id="50" IsFixedSize="[bool]False" Label="[UIModel]54" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]323" Value="{ClusterBinding FieldName=Gain\ Table}" Width="[float]132">
@@ -237,127 +241,127 @@
 							<Label Height="[float]16" Id="53" LabelOwner="[UIModel]49" Left="[float]5" Text="[string]IQ Imbalance Table" Top="[float]128" Width="[float]102" />
 							<Label Height="[float]16" Id="54" LabelOwner="[UIModel]50" Left="[float]5" Text="[string]Gain Table" Top="[float]300" Width="[float]56" />
 						</Cluster>
-						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c37380b81e7b4c619d487d13872252eb" Height="[float]2867" Id="3789" Label="[UIModel]3916" Left="[float]5" Top="[float]1380" Value="{ClusterBinding FieldName=USRP\ session}" Width="[float]244" p7:ControlDefinitionChecksum="/JcEDgic8CmXp9kVY039iA==" xmlns:p7="http://www.ni.com/PanelCommon">
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c37380b81e7b4c619d487d13872252eb" Height="[float]2867" Id="4074" Label="[UIModel]4201" Left="[float]5" Top="[float]1380" Value="{ClusterBinding FieldName=USRP\ session}" Width="[float]244" p7:ControlDefinitionChecksum="/JcEDgic8CmXp9kVY039iA==" xmlns:p7="http://www.ni.com/PanelCommon">
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__niUsrpRio\ Session\.gtype:ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
-							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="3790" Label="[UIModel]3813" Left="[float]5" RefnumType="[Type]@80218dfc63ab45cd81f1a56a1c45b96e" Top="[float]23" Value="{ClusterBinding FieldName=FPGA\ Interface}" Width="[float]20" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3791" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3814" Left="[float]5" MinHeight="[float]22" Top="[float]72" Value="{ClusterBinding FieldName=RIO\ Interface\ Number}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3792" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3815" Left="[float]5" MinHeight="[float]22" Top="[float]117" Value="{ClusterBinding FieldName=Data\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3793" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3816" Left="[float]5" MinHeight="[float]22" Top="[float]162" Value="{ClusterBinding FieldName=FPGA\ Data\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="3794" Label="[UIModel]3829" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]230" Value="{ClusterBinding FieldName=Global\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="4075" Label="[UIModel]4098" Left="[float]5" RefnumType="[Type]@80218dfc63ab45cd81f1a56a1c45b96e" Top="[float]23" Value="{ClusterBinding FieldName=FPGA\ Interface}" Width="[float]20" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4076" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4099" Left="[float]5" MinHeight="[float]22" Top="[float]72" Value="{ClusterBinding FieldName=RIO\ Interface\ Number}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4077" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4100" Left="[float]5" MinHeight="[float]22" Top="[float]117" Value="{ClusterBinding FieldName=Data\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4078" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4101" Left="[float]5" MinHeight="[float]22" Top="[float]162" Value="{ClusterBinding FieldName=FPGA\ Data\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="4079" Label="[UIModel]4114" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]230" Value="{ClusterBinding FieldName=Global\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niInstr\ Register\ Bus\ v0\ Host\.lvlib__Register\ Bus\ Session\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
 							</OpaqueRefnum>
-							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="3795" Label="[UIModel]3830" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]302" Value="{ClusterBinding FieldName=Radio\ 0\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="4080" Label="[UIModel]4115" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]302" Value="{ClusterBinding FieldName=Radio\ 0\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niInstr\ Register\ Bus\ v0\ Host\.lvlib__Register\ Bus\ Session\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
 							</OpaqueRefnum>
-							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="3796" Label="[UIModel]3831" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]374" Value="{ClusterBinding FieldName=Radio\ 1\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="4081" Label="[UIModel]4116" Left="[float]5" RefnumType="[Type]@c2f5892da4fa45e880c518f1ecdb6b39" Top="[float]374" Value="{ClusterBinding FieldName=Radio\ 1\ Settings\ Register\ Bus}" Width="[float]20" p7:ControlDefinitionChecksum="a0DN15RapK2gu+FIZMR1ZA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niInstr\ Register\ Bus\ v0\ Host\.lvlib__Register\ Bus\ Session\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
 							</OpaqueRefnum>
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3797" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]3832" Left="[float]5" MinHeight="[float]22" Top="[float]446" Value="{ClusterBinding FieldName=Radio\ Settings\ Bus\ Semaphore}" ValueFormatter="[string]LV:G6" ValueType="[Type]@8ef1e8c34e5d44ca85ed22f02f12a448" Width="[float]70" p7:ControlDefinitionChecksum="WqU4fPFuazUMNCtD+UApVQ==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4082" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]4117" Left="[float]5" MinHeight="[float]22" Top="[float]446" Value="{ClusterBinding FieldName=Radio\ Settings\ Bus\ Semaphore}" ValueFormatter="[string]LV:G6" ValueType="[Type]@8ef1e8c34e5d44ca85ed22f02f12a448" Width="[float]70" p7:ControlDefinitionChecksum="WqU4fPFuazUMNCtD+UApVQ==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="Semaphore\ RefNum\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
 							</NumericText>
-							<p7:ArrayViewer ArrayElement="[UIModel]3836" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]40" Id="3798" IndexVisibility="[Visibility]Visible" Label="[UIModel]3817" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]491" Value="{ClusterBinding FieldName=DB\ Queues}" Width="[float]80">
+							<p7:ArrayViewer ArrayElement="[UIModel]4121" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]40" Id="4083" IndexVisibility="[Visibility]Visible" Label="[UIModel]4102" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]491" Value="{ClusterBinding FieldName=DB\ Queues}" Width="[float]80">
 								<p.DefaultElementValue>0</p.DefaultElementValue>
-								<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="3836" Label="[UIModel]3890" Left="[float]165" RefnumType="[Type]@ee4f9b7cccd04ca9ae9cdcd1b2eda0f6" Top="[float]36" Width="[float]20" p7:ControlDefinitionChecksum="ek98N1vkZjaOc6gjWD/8UA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]26" Id="4121" Label="[UIModel]4175" Left="[float]165" RefnumType="[Type]@ee4f9b7cccd04ca9ae9cdcd1b2eda0f6" Top="[float]36" Width="[float]20" p7:ControlDefinitionChecksum="ek98N1vkZjaOc6gjWD/8UA==" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 									<p7:p.TypeDefinitionTargets>
 										<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__DB\ Queue\ Reference\.gtype:ControlDefinition" />
 									</p7:p.TypeDefinitionTargets>
-									<p7:Label Height="[float]16" Id="3890" IsVisualChild="[bool]False" LabelOwner="[UIModel]3836" Left="[float]165" Text="[string]Child" Top="[float]13" Width="[float]55" />
+									<p7:Label Height="[float]16" Id="4175" IsVisualChild="[bool]False" LabelOwner="[UIModel]4121" Left="[float]165" Text="[string]Child" Top="[float]13" Width="[float]55" />
 								</OpaqueRefnum>
 							</p7:ArrayViewer>
-							<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="3799" IsReadOnly="[bool]True" Label="[UIModel]3818" Left="[float]5" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]554" TrueContent="[string]On" Value="{ClusterBinding FieldName=Characterization\ Data\ Valid?}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9d594e6cc1bd47fb923cba043f25d131" Height="[float]748" Id="3800" Label="[UIModel]3833" Left="[float]5" Top="[float]650" Value="{ClusterBinding FieldName=EEPROM\ Header}" Width="[float]168" p7:ControlDefinitionChecksum="0fdmxNfUopzZzI+i00HKgw==">
+							<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]50" Id="4084" IsReadOnly="[bool]True" Label="[UIModel]4103" Left="[float]5" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" Top="[float]554" TrueContent="[string]On" Value="{ClusterBinding FieldName=Characterization\ Data\ Valid?}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9d594e6cc1bd47fb923cba043f25d131" Height="[float]748" Id="4085" Label="[UIModel]4118" Left="[float]5" Top="[float]650" Value="{ClusterBinding FieldName=EEPROM\ Header}" Width="[float]168" p7:ControlDefinitionChecksum="0fdmxNfUopzZzI+i00HKgw==">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__EEPROM\ Header\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3837" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3851" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3838" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3852" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]68" Value="{ClusterBinding FieldName=Product\ Code}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3839" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3853" Left="[float]5" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Hardware\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3840" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3854" Left="[float]5" MinHeight="[float]22" Top="[float]158" Value="{ClusterBinding FieldName=Hardware\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3841" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3855" Left="[float]5" MinHeight="[float]22" Top="[float]203" Value="{ClusterBinding FieldName=EEPROM\ Map\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3842" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3856" Left="[float]5" MinHeight="[float]22" Top="[float]248" Value="{ClusterBinding FieldName=EEPROM\ Map\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3843" IsReadOnly="[bool]True" Label="[UIModel]3857" Left="[float]5" Text="{ClusterBinding FieldName=User\ Password}" Top="[float]293" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3844" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3858" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]338" Value="{ClusterBinding FieldName=Pointer\ to\ Factory\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3845" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3859" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]383" Value="{ClusterBinding FieldName=Pointer\ to\ User\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3846" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]3860" Left="[float]5" MinHeight="[float]22" Top="[float]428" Value="{ClusterBinding FieldName=Recommended\ Interval}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3847" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]3861" Left="[float]6" MinHeight="[float]22" Top="[float]706" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3848" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[byte]1" Label="[UIModel]3862" Left="[float]5" MinHeight="[float]22" Top="[float]480" Value="{ClusterBinding FieldName=Number\ of\ Daughterboards}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt8" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<p7:ArrayViewer ArrayElement="[UIModel]3891" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="3849" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]3863" Left="[float]5" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]529" Value="{ClusterBinding FieldName=Daughterboard\ IDs}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4122" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4136" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4123" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4137" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]68" Value="{ClusterBinding FieldName=Product\ Code}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4124" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4138" Left="[float]5" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Hardware\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4125" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4139" Left="[float]5" MinHeight="[float]22" Top="[float]158" Value="{ClusterBinding FieldName=Hardware\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4126" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4140" Left="[float]5" MinHeight="[float]22" Top="[float]203" Value="{ClusterBinding FieldName=EEPROM\ Map\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4127" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4141" Left="[float]5" MinHeight="[float]22" Top="[float]248" Value="{ClusterBinding FieldName=EEPROM\ Map\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4128" IsReadOnly="[bool]True" Label="[UIModel]4142" Left="[float]5" Text="{ClusterBinding FieldName=User\ Password}" Top="[float]293" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4129" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4143" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]338" Value="{ClusterBinding FieldName=Pointer\ to\ Factory\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4130" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4144" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]383" Value="{ClusterBinding FieldName=Pointer\ to\ User\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4131" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Label="[UIModel]4145" Left="[float]5" MinHeight="[float]22" Top="[float]428" Value="{ClusterBinding FieldName=Recommended\ Interval}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4132" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]4146" Left="[float]6" MinHeight="[float]22" Top="[float]706" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4133" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[byte]1" Label="[UIModel]4147" Left="[float]5" MinHeight="[float]22" Top="[float]480" Value="{ClusterBinding FieldName=Number\ of\ Daughterboards}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt8" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:ArrayViewer ArrayElement="[UIModel]4176" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="4134" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]4148" Left="[float]5" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]529" Value="{ClusterBinding FieldName=Daughterboard\ IDs}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
 									<p.DefaultElementValue>0</p.DefaultElementValue>
-									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3891" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]7" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4176" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]7" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								</p7:ArrayViewer>
-								<p7:ArrayViewer ArrayElement="[UIModel]3892" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="3850" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]3864" Left="[float]6" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]618" Value="{ClusterBinding FieldName=Daughterboard\ Serial\ Numbers}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]123">
+								<p7:ArrayViewer ArrayElement="[UIModel]4177" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="4135" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]4149" Left="[float]6" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]618" Value="{ClusterBinding FieldName=Daughterboard\ Serial\ Numbers}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]123">
 									<p.DefaultElementValue>""</p.DefaultElementValue>
-									<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3892" IsReadOnly="[bool]True" Left="[float]7" Name="[string]Child" Text="[string]" Top="[float]31" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4177" IsReadOnly="[bool]True" Left="[float]7" Name="[string]Child" Text="[string]" Top="[float]31" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								</p7:ArrayViewer>
-								<p7:Label Height="[float]16" Id="3851" LabelOwner="[UIModel]3837" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
-								<p7:Label Height="[float]16" Id="3852" LabelOwner="[UIModel]3838" Left="[float]5" Text="[string]Product Code" Top="[float]45" Width="[float]73" />
-								<p7:Label Height="[float]16" Id="3853" LabelOwner="[UIModel]3839" Left="[float]5" Text="[string]Hardware Current Version" Top="[float]90" Width="[float]138" />
-								<p7:Label Height="[float]16" Id="3854" LabelOwner="[UIModel]3840" Left="[float]5" Text="[string]Hardware Oldest Compatible Version" Top="[float]135" Width="[float]197" />
-								<p7:Label Height="[float]16" Id="3855" LabelOwner="[UIModel]3841" Left="[float]5" Text="[string]EEPROM Map Current Version" Top="[float]180" Width="[float]160" />
-								<p7:Label Height="[float]16" Id="3856" LabelOwner="[UIModel]3842" Left="[float]5" Text="[string]EEPROM Map Oldest Compatible Version" Top="[float]225" Width="[float]219" />
-								<p7:Label Height="[float]16" Id="3857" LabelOwner="[UIModel]3843" Left="[float]5" Text="[string]User Password" Top="[float]270" Width="[float]78" />
-								<p7:Label Height="[float]16" Id="3858" LabelOwner="[UIModel]3844" Left="[float]5" Text="[string]Pointer to Factory Header" Top="[float]315" Width="[float]136" />
-								<p7:Label Height="[float]16" Id="3859" LabelOwner="[UIModel]3845" Left="[float]5" Text="[string]Pointer to User Header" Top="[float]360" Width="[float]122" />
-								<p7:Label Height="[float]16" Id="3860" LabelOwner="[UIModel]3846" Left="[float]5" Text="[string]Recommended Interval" Top="[float]405" Width="[float]123" />
-								<p7:Label Height="[float]16" Id="3861" LabelOwner="[UIModel]3847" Left="[float]6" Text="[string]Number of Reserved Bytes" Top="[float]683" Width="[float]141" />
-								<p7:Label Height="[float]16" Id="3862" LabelOwner="[UIModel]3848" Left="[float]5" Text="[string]Number of Daughterboards" Top="[float]457" Width="[float]148" />
-								<p7:Label Height="[float]16" Id="3863" LabelOwner="[UIModel]3849" Left="[float]5" Text="[string]Daughterboard IDs" Top="[float]506" Width="[float]102" />
-								<p7:Label Height="[float]16" Id="3864" LabelOwner="[UIModel]3850" Left="[float]6" Text="[string]Daughterboard Serial Numbers" Top="[float]595" Width="[float]166" />
+								<p7:Label Height="[float]16" Id="4136" LabelOwner="[UIModel]4122" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
+								<p7:Label Height="[float]16" Id="4137" LabelOwner="[UIModel]4123" Left="[float]5" Text="[string]Product Code" Top="[float]45" Width="[float]73" />
+								<p7:Label Height="[float]16" Id="4138" LabelOwner="[UIModel]4124" Left="[float]5" Text="[string]Hardware Current Version" Top="[float]90" Width="[float]138" />
+								<p7:Label Height="[float]16" Id="4139" LabelOwner="[UIModel]4125" Left="[float]5" Text="[string]Hardware Oldest Compatible Version" Top="[float]135" Width="[float]197" />
+								<p7:Label Height="[float]16" Id="4140" LabelOwner="[UIModel]4126" Left="[float]5" Text="[string]EEPROM Map Current Version" Top="[float]180" Width="[float]160" />
+								<p7:Label Height="[float]16" Id="4141" LabelOwner="[UIModel]4127" Left="[float]5" Text="[string]EEPROM Map Oldest Compatible Version" Top="[float]225" Width="[float]219" />
+								<p7:Label Height="[float]16" Id="4142" LabelOwner="[UIModel]4128" Left="[float]5" Text="[string]User Password" Top="[float]270" Width="[float]78" />
+								<p7:Label Height="[float]16" Id="4143" LabelOwner="[UIModel]4129" Left="[float]5" Text="[string]Pointer to Factory Header" Top="[float]315" Width="[float]136" />
+								<p7:Label Height="[float]16" Id="4144" LabelOwner="[UIModel]4130" Left="[float]5" Text="[string]Pointer to User Header" Top="[float]360" Width="[float]122" />
+								<p7:Label Height="[float]16" Id="4145" LabelOwner="[UIModel]4131" Left="[float]5" Text="[string]Recommended Interval" Top="[float]405" Width="[float]123" />
+								<p7:Label Height="[float]16" Id="4146" LabelOwner="[UIModel]4132" Left="[float]6" Text="[string]Number of Reserved Bytes" Top="[float]683" Width="[float]141" />
+								<p7:Label Height="[float]16" Id="4147" LabelOwner="[UIModel]4133" Left="[float]5" Text="[string]Number of Daughterboards" Top="[float]457" Width="[float]148" />
+								<p7:Label Height="[float]16" Id="4148" LabelOwner="[UIModel]4134" Left="[float]5" Text="[string]Daughterboard IDs" Top="[float]506" Width="[float]102" />
+								<p7:Label Height="[float]16" Id="4149" LabelOwner="[UIModel]4135" Left="[float]6" Text="[string]Daughterboard Serial Numbers" Top="[float]595" Width="[float]166" />
 							</p7:Cluster>
-							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4b50848e3b84478e9d0182f0e44f3d2c" Height="[float]409" Id="3801" Label="[UIModel]3834" Left="[float]5" Top="[float]1367" Value="{ClusterBinding FieldName=Device\ Data\ Header}" Width="[float]191" p7:ControlDefinitionChecksum="C6cFwLDcsCc+GosRlWRnGA==">
+							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4b50848e3b84478e9d0182f0e44f3d2c" Height="[float]409" Id="4086" Label="[UIModel]4119" Left="[float]5" Top="[float]1367" Value="{ClusterBinding FieldName=Device\ Data\ Header}" Width="[float]191" p7:ControlDefinitionChecksum="C6cFwLDcsCc+GosRlWRnGA==">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__EEPROM\ Device\ Data\ Header\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3865" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3871" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3866" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[byte]1" Label="[UIModel]3872" Left="[float]5" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Number\ of\ Channels}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt8" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<p7:ArrayViewer ArrayElement="[UIModel]3893" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="3867" IndexVisibility="[Visibility]Visible" Label="[UIModel]3873" Left="[float]5" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]201" Value="{ClusterBinding FieldName=Number\ of\ Gain\ Settings}" Width="[float]149">
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4150" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4156" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4151" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[byte]1" Label="[UIModel]4157" Left="[float]5" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Number\ of\ Channels}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt8" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:ArrayViewer ArrayElement="[UIModel]4178" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="4152" IndexVisibility="[Visibility]Visible" Label="[UIModel]4158" Left="[float]5" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]201" Value="{ClusterBinding FieldName=Number\ of\ Gain\ Settings}" Width="[float]149">
 									<p.DefaultElementValue>0</p.DefaultElementValue>
-									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3893" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]31" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]89" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4178" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]31" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]89" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								</p7:ArrayViewer>
-								<p7:ArrayViewer ArrayElement="[UIModel]3894" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="3868" IndexVisibility="[Visibility]Visible" Label="[UIModel]3874" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]284" Value="{ClusterBinding FieldName=Pointer\ to\ Characterization\ Data}" Width="[float]169">
+								<p7:ArrayViewer ArrayElement="[UIModel]4179" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="4153" IndexVisibility="[Visibility]Visible" Label="[UIModel]4159" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]284" Value="{ClusterBinding FieldName=Pointer\ to\ Characterization\ Data}" Width="[float]169">
 									<p.DefaultElementValue>0</p.DefaultElementValue>
-									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3894" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Left="[float]54" MinHeight="[float]22" Name="[string]Child" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]7" Value="[uint]0" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]109" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4179" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Left="[float]54" MinHeight="[float]22" Name="[string]Child" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]7" Value="[uint]0" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]109" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								</p7:ArrayViewer>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3869" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]3875" Left="[float]4" MinHeight="[float]22" Top="[float]374" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<p7:ArrayViewer ArrayElement="[UIModel]3895" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="3870" IndexVisibility="[Visibility]Visible" Label="[UIModel]3876" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]117" Value="{ClusterBinding FieldName=Number\ of\ Frequencies}" Width="[float]149">
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4154" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]4160" Left="[float]4" MinHeight="[float]22" Top="[float]374" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:ArrayViewer ArrayElement="[UIModel]4180" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]60" Id="4155" IndexVisibility="[Visibility]Visible" Label="[UIModel]4161" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]2" Top="[float]117" Value="{ClusterBinding FieldName=Number\ of\ Frequencies}" Width="[float]149">
 									<p.DefaultElementValue>0</p.DefaultElementValue>
-									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3895" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]31" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]89" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4180" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ushort]1" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]31" Value="[ushort]0" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt16" Width="[float]89" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 								</p7:ArrayViewer>
-								<p7:Label Height="[float]16" Id="3871" LabelOwner="[UIModel]3865" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
-								<p7:Label Height="[float]16" Id="3872" LabelOwner="[UIModel]3866" Left="[float]5" Text="[string]Number of Channels" Top="[float]45" Width="[float]110" />
-								<p7:Label Height="[float]16" Id="3873" LabelOwner="[UIModel]3867" Left="[float]5" Text="[string]Number of Gain Settings" Top="[float]178" Width="[float]131" />
-								<p7:Label Height="[float]16" Id="3874" LabelOwner="[UIModel]3868" Left="[float]4" Text="[string]Pointer to Characterization Data" Top="[float]261" Width="[float]170" />
-								<p7:Label Height="[float]16" Id="3875" LabelOwner="[UIModel]3869" Left="[float]4" Text="[string]Number of Reserved Bytes" Top="[float]351" Width="[float]141" />
-								<p7:Label Height="[float]16" Id="3876" LabelOwner="[UIModel]3870" Left="[float]4" Text="[string]Number of Frequencies" Top="[float]94" Width="[float]125" />
+								<p7:Label Height="[float]16" Id="4156" LabelOwner="[UIModel]4150" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
+								<p7:Label Height="[float]16" Id="4157" LabelOwner="[UIModel]4151" Left="[float]5" Text="[string]Number of Channels" Top="[float]45" Width="[float]110" />
+								<p7:Label Height="[float]16" Id="4158" LabelOwner="[UIModel]4152" Left="[float]5" Text="[string]Number of Gain Settings" Top="[float]178" Width="[float]131" />
+								<p7:Label Height="[float]16" Id="4159" LabelOwner="[UIModel]4153" Left="[float]4" Text="[string]Pointer to Characterization Data" Top="[float]261" Width="[float]170" />
+								<p7:Label Height="[float]16" Id="4160" LabelOwner="[UIModel]4154" Left="[float]4" Text="[string]Number of Reserved Bytes" Top="[float]351" Width="[float]141" />
+								<p7:Label Height="[float]16" Id="4161" LabelOwner="[UIModel]4155" Left="[float]4" Text="[string]Number of Frequencies" Top="[float]94" Width="[float]125" />
 							</p7:Cluster>
-							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@781d7460528c4a2a9162e435a8d29db5" Height="[float]308" Id="3802" Label="[UIModel]3835" Left="[float]5" Top="[float]1738" Value="{ClusterBinding FieldName=EEPROM\ Characterization\ Header}" Width="[float]220" p7:ControlDefinitionChecksum="eUL0U/LsOhTfnpi55RX1jg==">
+							<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@781d7460528c4a2a9162e435a8d29db5" Height="[float]308" Id="4087" Label="[UIModel]4120" Left="[float]5" Top="[float]1738" Value="{ClusterBinding FieldName=EEPROM\ Characterization\ Header}" Width="[float]220" p7:ControlDefinitionChecksum="eUL0U/LsOhTfnpi55RX1jg==">
 								<p7:p.TypeDefinitionTargets>
 									<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__EEPROM\ Characterization\ Header\.gtype:ControlDefinition" />
 								</p7:p.TypeDefinitionTargets>
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3877" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3883" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]39" Id="3878" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]3884" Left="[float]5" Maximum="[PrecisionDateTime]3001-01-01T00:00:00.0" MinHeight="[float]22" MinWidth="[float]40" Minimum="[PrecisionDateTime]1600-01-01T00:00:00.0" Top="[float]68" Value="{ClusterBinding FieldName=Date}" Width="[float]202" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3879" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[float]1" Label="[UIModel]3885" Left="[float]5" MinHeight="[float]22" Top="[float]135" Value="{ClusterBinding FieldName=Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3880" IsReadOnly="[bool]True" Label="[UIModel]3886" Left="[float]5" Text="{ClusterBinding FieldName=Misc.\ Info}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3881" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3887" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]225" Value="{ClusterBinding FieldName=Pointer\ to\ Device\ Data\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3882" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]3888" Left="[float]5" MinHeight="[float]22" Top="[float]270" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-								<p7:Label Height="[float]16" Id="3883" LabelOwner="[UIModel]3877" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
-								<p7:Label Height="[float]16" Id="3884" LabelOwner="[UIModel]3878" Left="[float]5" Text="[string]Date" Top="[float]45" Width="[float]25" />
-								<p7:Label Height="[float]16" Id="3885" LabelOwner="[UIModel]3879" Left="[float]5" Text="[string]Temperature" Top="[float]112" Width="[float]68" />
-								<p7:Label Height="[float]16" Id="3886" LabelOwner="[UIModel]3880" Left="[float]5" Text="[string]Misc. Info" Top="[float]157" Width="[float]51" />
-								<p7:Label Height="[float]16" Id="3887" LabelOwner="[UIModel]3881" Left="[float]5" Text="[string]Pointer to Device Data Header" Top="[float]202" Width="[float]161" />
-								<p7:Label Height="[float]16" Id="3888" LabelOwner="[UIModel]3882" Left="[float]5" Text="[string]Number of Reserved Bytes" Top="[float]247" Width="[float]141" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4162" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4168" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]23" Value="{ClusterBinding FieldName=Checksum}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]39" Id="4163" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]4169" Left="[float]5" Maximum="[PrecisionDateTime]3001-01-01T00:00:00.0" MinHeight="[float]22" MinWidth="[float]40" Minimum="[PrecisionDateTime]1600-01-01T00:00:00.0" Top="[float]68" Value="{ClusterBinding FieldName=Date}" Width="[float]202" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4164" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[float]1" Label="[UIModel]4170" Left="[float]5" MinHeight="[float]22" Top="[float]135" Value="{ClusterBinding FieldName=Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Single" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4165" IsReadOnly="[bool]True" Label="[UIModel]4171" Left="[float]5" Text="{ClusterBinding FieldName=Misc.\ Info}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4166" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4172" Left="[float]5" MinHeight="[float]22" RadixBase="[RadixBase]Hexadecimal" RadixVisibility="[SMVisibility]Visible" Top="[float]225" Value="{ClusterBinding FieldName=Pointer\ to\ Device\ Data\ Header}" ValueFormatter="[string]Hexadecimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4167" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]4173" Left="[float]5" MinHeight="[float]22" Top="[float]270" Value="{ClusterBinding FieldName=Number\ of\ Reserved\ Bytes}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="4168" LabelOwner="[UIModel]4162" Left="[float]5" Text="[string]Checksum" Top="[float]0" Width="[float]55" />
+								<p7:Label Height="[float]16" Id="4169" LabelOwner="[UIModel]4163" Left="[float]5" Text="[string]Date" Top="[float]45" Width="[float]25" />
+								<p7:Label Height="[float]16" Id="4170" LabelOwner="[UIModel]4164" Left="[float]5" Text="[string]Temperature" Top="[float]112" Width="[float]68" />
+								<p7:Label Height="[float]16" Id="4171" LabelOwner="[UIModel]4165" Left="[float]5" Text="[string]Misc. Info" Top="[float]157" Width="[float]51" />
+								<p7:Label Height="[float]16" Id="4172" LabelOwner="[UIModel]4166" Left="[float]5" Text="[string]Pointer to Device Data Header" Top="[float]202" Width="[float]161" />
+								<p7:Label Height="[float]16" Id="4173" LabelOwner="[UIModel]4167" Left="[float]5" Text="[string]Number of Reserved Bytes" Top="[float]247" Width="[float]141" />
 							</p7:Cluster>
-							<p7:ArrayViewer ArrayElement="[UIModel]3889" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]405" Id="3803" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]3819" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]2044" Value="{ClusterBinding FieldName=Characterization\ Data}" Width="[float]226">
+							<p7:ArrayViewer ArrayElement="[UIModel]4174" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]405" Id="4088" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]4104" Left="[float]5" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]2044" Value="{ClusterBinding FieldName=Characterization\ Data}" Width="[float]226">
 								<p.DefaultElementValue>
 									<Cluster>
 										<Field1>null</Field1>
@@ -366,78 +370,78 @@
 										<Field4>null</Field4>
 									</Cluster>
 								</p.DefaultElementValue>
-								<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7138889cf98142969c95682ccec6de4b" Height="[float]421" Id="3889" Label="[UIModel]3904" Left="[float]53" Top="[float]7" Width="[float]240" p7:ControlDefinitionChecksum="PPRu5GhbLJNBREaInZbQ+w==">
+								<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7138889cf98142969c95682ccec6de4b" Height="[float]421" Id="4174" Label="[UIModel]4189" Left="[float]19" Top="[float]36" Width="[float]240" p7:ControlDefinitionChecksum="PPRu5GhbLJNBREaInZbQ+w==">
 									<p7:p.TypeDefinitionTargets>
 										<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__Characterization\ Data\.gtype:ControlDefinition" />
 									</p7:p.TypeDefinitionTargets>
-									<p7:ArrayViewer ArrayElement="[UIModel]3905" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="3896" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]3900" Left="[float]125" Orientation="[SMOrientation]Vertical" Rows="[int]3" Top="[float]26" Value="{ClusterBinding FieldName=Gains[dB]}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
+									<p7:ArrayViewer ArrayElement="[UIModel]4190" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="4181" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]4185" Left="[float]125" Orientation="[SMOrientation]Vertical" Rows="[int]3" Top="[float]26" Value="{ClusterBinding FieldName=Gains[dB]}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
 										<p.DefaultElementValue>0x0</p.DefaultElementValue>
-										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3905" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]55" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4190" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]55" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 									</p7:ArrayViewer>
-									<p7:ArrayViewer ArrayElement="[UIModel]3906" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="3897" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]3901" Left="[float]8" Orientation="[SMOrientation]Vertical" Rows="[int]3" Top="[float]26" Value="{ClusterBinding FieldName=Frequencies\ [Hz]}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
+									<p7:ArrayViewer ArrayElement="[UIModel]4191" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="4182" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]4186" Left="[float]8" Orientation="[SMOrientation]Vertical" Rows="[int]3" Top="[float]26" Value="{ClusterBinding FieldName=Frequencies\ [Hz]}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]103">
 										<p.DefaultElementValue>0x0</p.DefaultElementValue>
-										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3906" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]31" UnitAnnotation="[string]" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4191" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]22" Name="[string]Child" Top="[float]31" UnitAnnotation="[string]" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 									</p7:ArrayViewer>
-									<p7:ArrayViewer ArrayElement="[UIModel]3907" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]162" Id="3898" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]3902" Left="[float]8" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]249" Value="{ClusterBinding FieldName=IQ\ Imbalance\ Table}" Width="[float]214">
+									<p7:ArrayViewer ArrayElement="[UIModel]4192" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]162" Id="4183" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]4187" Left="[float]8" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]249" Value="{ClusterBinding FieldName=IQ\ Imbalance\ Table}" Width="[float]214">
 										<p.DefaultElementValue>0x0_0x0_0x0;0x0_</p.DefaultElementValue>
-										<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@eac22929f98b4c49a373b0c8188e7ba3" Height="[float]148" Id="3907" Label="[UIModel]3915" Left="[float]53" Top="[float]7" Width="[float]154" p7:ControlDefinitionChecksum="qYZd8ozG8qUhM7M3FDa4AA==">
+										<p7:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@eac22929f98b4c49a373b0c8188e7ba3" Height="[float]148" Id="4192" Label="[UIModel]4200" Left="[float]53" Top="[float]7" Width="[float]154" p7:ControlDefinitionChecksum="qYZd8ozG8qUhM7M3FDa4AA==">
 											<p7:p.TypeDefinitionTargets>
 												<p7:TypeDefinitionTarget TargetName="niUsrpRio\ Config\ v1\ Host\.lvlib__IQ\ Imbalance\.gtype:ControlDefinition" />
 											</p7:p.TypeDefinitionTargets>
-											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3909" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]3912" Left="[float]5" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=Gain\ Imbalance\ [linear]}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3910" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]3913" Left="[float]5" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Phase\ Imbalance\ [radians]}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3911" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ComplexDouble]1 + 0i" Label="[UIModel]3914" Left="[float]5" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Offset}" ValueFormatter="[string]LV:G6" ValueType="[Type]ComplexDouble" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-											<p7:Label Height="[float]16" Id="3912" LabelOwner="[UIModel]3909" Left="[float]5" Text="[string]Gain Imbalance [linear]" Top="[float]0" Width="[float]122" />
-											<p7:Label Height="[float]16" Id="3913" LabelOwner="[UIModel]3910" Left="[float]5" Text="[string]Phase Imbalance [radians]" Top="[float]45" Width="[float]138" />
-											<p7:Label Height="[float]16" Id="3914" LabelOwner="[UIModel]3911" Left="[float]5" Text="[string]Offset" Top="[float]90" Width="[float]32" />
-											<p7:Label Height="[float]16" Id="3915" IsVisualChild="[bool]False" LabelOwner="[UIModel]3907" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]70" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4194" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]4197" Left="[float]5" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=Gain\ Imbalance\ [linear]}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4195" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]4198" Left="[float]5" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Phase\ Imbalance\ [radians]}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4196" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[ComplexDouble]1 + 0i" Label="[UIModel]4199" Left="[float]5" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Offset}" ValueFormatter="[string]LV:G6" ValueType="[Type]ComplexDouble" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<p7:Label Height="[float]16" Id="4197" LabelOwner="[UIModel]4194" Left="[float]5" Text="[string]Gain Imbalance [linear]" Top="[float]0" Width="[float]122" />
+											<p7:Label Height="[float]16" Id="4198" LabelOwner="[UIModel]4195" Left="[float]5" Text="[string]Phase Imbalance [radians]" Top="[float]45" Width="[float]138" />
+											<p7:Label Height="[float]16" Id="4199" LabelOwner="[UIModel]4196" Left="[float]5" Text="[string]Offset" Top="[float]90" Width="[float]32" />
+											<p7:Label Height="[float]16" Id="4200" IsVisualChild="[bool]False" LabelOwner="[UIModel]4192" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]70" />
 										</p7:Cluster>
 									</p7:ArrayViewer>
-									<p7:ArrayViewer ArrayElement="[UIModel]3908" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]2" Height="[float]84" Id="3899" IndexVisibility="[Visibility]Visible" Label="[UIModel]3903" Left="[float]9" Orientation="[SMOrientation]Horizontal" Rows="[int]3" Top="[float]137" Value="{ClusterBinding FieldName=Measured\ Gains[dB]}" Width="[float]202">
+									<p7:ArrayViewer ArrayElement="[UIModel]4193" BaseName="[string]Array" Columns="[int]2" Dimensions="[int]2" Height="[float]84" Id="4184" IndexVisibility="[Visibility]Visible" Label="[UIModel]4188" Left="[float]9" Orientation="[SMOrientation]Horizontal" Rows="[int]3" Top="[float]137" Value="{ClusterBinding FieldName=Measured\ Gains[dB]}" Width="[float]202">
 										<p.DefaultElementValue>0x0</p.DefaultElementValue>
-										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3908" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+										<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4193" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 									</p7:ArrayViewer>
-									<p7:Label Height="[float]16" Id="3900" LabelOwner="[UIModel]3896" Left="[float]125" Text="[string]Gains[dB]" Top="[float]3" Width="[float]51" />
-									<p7:Label Height="[float]16" Id="3901" LabelOwner="[UIModel]3897" Left="[float]8" Text="[string]Frequencies [Hz]" Top="[float]3" Width="[float]88" />
-									<p7:Label Height="[float]16" Id="3902" LabelOwner="[UIModel]3898" Left="[float]8" Text="[string]IQ Imbalance Table" Top="[float]226" Width="[float]102" />
-									<p7:Label Height="[float]16" Id="3903" LabelOwner="[UIModel]3899" Left="[float]9" Text="[string]Measured Gains[dB]" Top="[float]114" Width="[float]107" />
-									<p7:Label Height="[float]16" Id="3904" IsVisualChild="[bool]False" LabelOwner="[UIModel]3889" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]114" />
+									<p7:Label Height="[float]16" Id="4185" LabelOwner="[UIModel]4181" Left="[float]125" Text="[string]Gains[dB]" Top="[float]3" Width="[float]51" />
+									<p7:Label Height="[float]16" Id="4186" LabelOwner="[UIModel]4182" Left="[float]8" Text="[string]Frequencies [Hz]" Top="[float]3" Width="[float]88" />
+									<p7:Label Height="[float]16" Id="4187" LabelOwner="[UIModel]4183" Left="[float]8" Text="[string]IQ Imbalance Table" Top="[float]226" Width="[float]102" />
+									<p7:Label Height="[float]16" Id="4188" LabelOwner="[UIModel]4184" Left="[float]9" Text="[string]Measured Gains[dB]" Top="[float]114" Width="[float]107" />
+									<p7:Label Height="[float]16" Id="4189" IsVisualChild="[bool]False" LabelOwner="[UIModel]4174" Left="[float]19" Text="[string]Child" Top="[float]13" Width="[float]114" />
 								</p7:Cluster>
 							</p7:ArrayViewer>
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3804" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3820" Left="[float]5" MinHeight="[float]22" Top="[float]2472" Value="{ClusterBinding FieldName=FPGA\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3805" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3821" Left="[float]5" MinHeight="[float]22" Top="[float]2517" Value="{ClusterBinding FieldName=FPGA\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3806" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3822" Left="[float]5" MinHeight="[float]22" Top="[float]2562" Value="{ClusterBinding FieldName=Fixed\ Logic\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3807" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3823" Left="[float]5" MinHeight="[float]22" Top="[float]2607" Value="{ClusterBinding FieldName=Fixed\ Logic\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3808" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3824" Left="[float]5" MinHeight="[float]22" Top="[float]2652" Value="{ClusterBinding FieldName=FPGA\ Radio\ Settings\ Bus\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3809" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3825" Left="[float]5" MinHeight="[float]22" Top="[float]2697" Value="{ClusterBinding FieldName=FPGA\ Radio\ Settings\ Bus\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3810" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3826" Left="[float]5" MinHeight="[float]22" Top="[float]2742" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3811" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3827" Left="[float]5" MinHeight="[float]22" Top="[float]2787" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3812" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]3828" Left="[float]5" MinHeight="[float]22" Top="[float]2832" Value="{ClusterBinding FieldName=Daughterboard\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Height="[float]16" Id="3813" LabelOwner="[UIModel]3790" Left="[float]5" Text="[string]FPGA Interface" Top="[float]0" Width="[float]79" />
-							<p7:Label Height="[float]16" Id="3814" LabelOwner="[UIModel]3791" Left="[float]5" Text="[string]RIO Interface Number" Top="[float]49" Width="[float]116" />
-							<p7:Label Height="[float]16" Id="3815" LabelOwner="[UIModel]3792" Left="[float]5" Text="[string]Data Clock Rate" Top="[float]94" Width="[float]84" />
-							<p7:Label Height="[float]16" Id="3816" LabelOwner="[UIModel]3793" Left="[float]5" Text="[string]FPGA Data Clock Rate" Top="[float]139" Width="[float]116" />
-							<p7:Label Height="[float]16" Id="3817" LabelOwner="[UIModel]3798" Left="[float]5" Text="[string]DB Queues" Top="[float]468" Width="[float]59" />
-							<p7:Label Height="[float]16" Id="3818" LabelOwner="[UIModel]3799" Left="[float]5" Text="[string]Characterization Data Valid?" Top="[float]531" Width="[float]149" />
-							<p7:Label Height="[float]16" Id="3819" LabelOwner="[UIModel]3803" Left="[float]5" Text="[string]Characterization Data" Top="[float]2021" Width="[float]114" />
-							<p7:Label Height="[float]16" Id="3820" LabelOwner="[UIModel]3804" Left="[float]5" Text="[string]FPGA Current Version" Top="[float]2449" Width="[float]115" />
-							<p7:Label Height="[float]16" Id="3821" LabelOwner="[UIModel]3805" Left="[float]5" Text="[string]FPGA Oldest Compatible Version" Top="[float]2494" Width="[float]174" />
-							<p7:Label Height="[float]16" Id="3822" LabelOwner="[UIModel]3806" Left="[float]5" Text="[string]Fixed Logic Current Version" Top="[float]2539" Width="[float]146" />
-							<p7:Label Height="[float]16" Id="3823" LabelOwner="[UIModel]3807" Left="[float]5" Text="[string]Fixed Logic Oldest Compatible Version" Top="[float]2584" Width="[float]205" />
-							<p7:Label Height="[float]16" Id="3824" LabelOwner="[UIModel]3808" Left="[float]5" Text="[string]FPGA Radio Settings Bus Current Version" Top="[float]2629" Width="[float]217" />
-							<p7:Label Height="[float]16" Id="3825" LabelOwner="[UIModel]3809" Left="[float]5" Text="[string]FPGA Radio Settings Bus Oldest Compatible Version" Top="[float]2674" Width="[float]276" />
-							<p7:Label Height="[float]16" Id="3826" LabelOwner="[UIModel]3810" Left="[float]5" Text="[string]FPGA Board Config Current Version" Top="[float]2719" Width="[float]188" />
-							<p7:Label Height="[float]16" Id="3827" LabelOwner="[UIModel]3811" Left="[float]5" Text="[string]FPGA Board Config Oldest Compatible Version" Top="[float]2764" Width="[float]247" />
-							<p7:Label Height="[float]16" Id="3828" LabelOwner="[UIModel]3812" Left="[float]5" Text="[string]Daughterboard Clock Rate" Top="[float]2809" Width="[float]141" />
-							<p7:Label Height="[float]16" Id="3829" LabelOwner="[UIModel]3794" Left="[float]5" Text="[string]Global Settings Register Bus" Top="[float]207" Width="[float]149" />
-							<p7:Label Height="[float]16" Id="3830" LabelOwner="[UIModel]3795" Left="[float]5" Text="[string]Radio 0 Settings Register Bus" Top="[float]279" Width="[float]155" />
-							<p7:Label Height="[float]16" Id="3831" LabelOwner="[UIModel]3796" Left="[float]5" Text="[string]Radio 1 Settings Register Bus" Top="[float]351" Width="[float]155" />
-							<p7:Label Height="[float]16" Id="3832" LabelOwner="[UIModel]3797" Left="[float]5" Text="[string]Radio Settings Bus Semaphore" Top="[float]423" Width="[float]162" />
-							<p7:Label Height="[float]16" Id="3833" LabelOwner="[UIModel]3800" Left="[float]5" Text="[string]EEPROM Header" Top="[float]627" Width="[float]88" />
-							<p7:Label Height="[float]16" Id="3834" LabelOwner="[UIModel]3801" Left="[float]5" Text="[string]Device Data Header" Top="[float]1344" Width="[float]105" />
-							<p7:Label Height="[float]16" Id="3835" LabelOwner="[UIModel]3802" Left="[float]5" Text="[string]EEPROM Characterization Header" Top="[float]1715" Width="[float]177" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4089" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4105" Left="[float]5" MinHeight="[float]22" Top="[float]2472" Value="{ClusterBinding FieldName=FPGA\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4090" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4106" Left="[float]5" MinHeight="[float]22" Top="[float]2517" Value="{ClusterBinding FieldName=FPGA\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4091" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4107" Left="[float]5" MinHeight="[float]22" Top="[float]2562" Value="{ClusterBinding FieldName=Fixed\ Logic\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4092" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4108" Left="[float]5" MinHeight="[float]22" Top="[float]2607" Value="{ClusterBinding FieldName=Fixed\ Logic\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4093" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4109" Left="[float]5" MinHeight="[float]22" Top="[float]2652" Value="{ClusterBinding FieldName=FPGA\ Radio\ Settings\ Bus\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4094" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4110" Left="[float]5" MinHeight="[float]22" Top="[float]2697" Value="{ClusterBinding FieldName=FPGA\ Radio\ Settings\ Bus\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4095" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4111" Left="[float]5" MinHeight="[float]22" Top="[float]2742" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Current\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4096" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4112" Left="[float]5" MinHeight="[float]22" Top="[float]2787" Value="{ClusterBinding FieldName=FPGA\ Board\ Config\ Oldest\ Compatible\ Version}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="4097" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" Label="[UIModel]4113" Left="[float]5" MinHeight="[float]22" Top="[float]2832" Value="{ClusterBinding FieldName=Daughterboard\ Clock\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]UInt32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="4098" LabelOwner="[UIModel]4075" Left="[float]5" Text="[string]FPGA Interface" Top="[float]0" Width="[float]79" />
+							<p7:Label Height="[float]16" Id="4099" LabelOwner="[UIModel]4076" Left="[float]5" Text="[string]RIO Interface Number" Top="[float]49" Width="[float]116" />
+							<p7:Label Height="[float]16" Id="4100" LabelOwner="[UIModel]4077" Left="[float]5" Text="[string]Data Clock Rate" Top="[float]94" Width="[float]84" />
+							<p7:Label Height="[float]16" Id="4101" LabelOwner="[UIModel]4078" Left="[float]5" Text="[string]FPGA Data Clock Rate" Top="[float]139" Width="[float]116" />
+							<p7:Label Height="[float]16" Id="4102" LabelOwner="[UIModel]4083" Left="[float]5" Text="[string]DB Queues" Top="[float]468" Width="[float]59" />
+							<p7:Label Height="[float]16" Id="4103" LabelOwner="[UIModel]4084" Left="[float]5" Text="[string]Characterization Data Valid?" Top="[float]531" Width="[float]149" />
+							<p7:Label Height="[float]16" Id="4104" LabelOwner="[UIModel]4088" Left="[float]5" Text="[string]Characterization Data" Top="[float]2021" Width="[float]114" />
+							<p7:Label Height="[float]16" Id="4105" LabelOwner="[UIModel]4089" Left="[float]5" Text="[string]FPGA Current Version" Top="[float]2449" Width="[float]115" />
+							<p7:Label Height="[float]16" Id="4106" LabelOwner="[UIModel]4090" Left="[float]5" Text="[string]FPGA Oldest Compatible Version" Top="[float]2494" Width="[float]174" />
+							<p7:Label Height="[float]16" Id="4107" LabelOwner="[UIModel]4091" Left="[float]5" Text="[string]Fixed Logic Current Version" Top="[float]2539" Width="[float]146" />
+							<p7:Label Height="[float]16" Id="4108" LabelOwner="[UIModel]4092" Left="[float]5" Text="[string]Fixed Logic Oldest Compatible Version" Top="[float]2584" Width="[float]205" />
+							<p7:Label Height="[float]16" Id="4109" LabelOwner="[UIModel]4093" Left="[float]5" Text="[string]FPGA Radio Settings Bus Current Version" Top="[float]2629" Width="[float]217" />
+							<p7:Label Height="[float]16" Id="4110" LabelOwner="[UIModel]4094" Left="[float]5" Text="[string]FPGA Radio Settings Bus Oldest Compatible Version" Top="[float]2674" Width="[float]276" />
+							<p7:Label Height="[float]16" Id="4111" LabelOwner="[UIModel]4095" Left="[float]5" Text="[string]FPGA Board Config Current Version" Top="[float]2719" Width="[float]188" />
+							<p7:Label Height="[float]16" Id="4112" LabelOwner="[UIModel]4096" Left="[float]5" Text="[string]FPGA Board Config Oldest Compatible Version" Top="[float]2764" Width="[float]247" />
+							<p7:Label Height="[float]16" Id="4113" LabelOwner="[UIModel]4097" Left="[float]5" Text="[string]Daughterboard Clock Rate" Top="[float]2809" Width="[float]141" />
+							<p7:Label Height="[float]16" Id="4114" LabelOwner="[UIModel]4079" Left="[float]5" Text="[string]Global Settings Register Bus" Top="[float]207" Width="[float]149" />
+							<p7:Label Height="[float]16" Id="4115" LabelOwner="[UIModel]4080" Left="[float]5" Text="[string]Radio 0 Settings Register Bus" Top="[float]279" Width="[float]155" />
+							<p7:Label Height="[float]16" Id="4116" LabelOwner="[UIModel]4081" Left="[float]5" Text="[string]Radio 1 Settings Register Bus" Top="[float]351" Width="[float]155" />
+							<p7:Label Height="[float]16" Id="4117" LabelOwner="[UIModel]4082" Left="[float]5" Text="[string]Radio Settings Bus Semaphore" Top="[float]423" Width="[float]162" />
+							<p7:Label Height="[float]16" Id="4118" LabelOwner="[UIModel]4085" Left="[float]5" Text="[string]EEPROM Header" Top="[float]627" Width="[float]88" />
+							<p7:Label Height="[float]16" Id="4119" LabelOwner="[UIModel]4086" Left="[float]5" Text="[string]Device Data Header" Top="[float]1344" Width="[float]105" />
+							<p7:Label Height="[float]16" Id="4120" LabelOwner="[UIModel]4087" Left="[float]5" Text="[string]EEPROM Characterization Header" Top="[float]1715" Width="[float]177" />
 						</Cluster>
-						<Label Height="[float]16" Id="3916" LabelOwner="[UIModel]3789" Left="[float]5" Text="[string]USRP session" Top="[float]1357" Width="[float]71" />
+						<Label Height="[float]16" Id="4201" LabelOwner="[UIModel]4074" Left="[float]5" Text="[string]USRP session" Top="[float]1357" Width="[float]71" />
 						<Label Height="[float]16" Id="30" LabelOwner="[UIModel]18" Left="[float]5" Text="[string]send queue" Top="[float]51" Width="[float]62" />
 						<Label Height="[float]16" Id="31" LabelOwner="[UIModel]19" Left="[float]5" Text="[string]receive queue" Top="[float]114" Width="[float]74" />
 						<Label Height="[float]16" Id="32" LabelOwner="[UIModel]20" Left="[float]5" Text="[string]receive throughput queue" Top="[float]177" Width="[float]138" />
@@ -470,14 +474,22 @@
 						<Label Height="[float]16" Id="3930" LabelOwner="[UIModel]3929" Left="[float]5" Text="[string]UDP Receiver_4" Top="[float]4670" Width="[float]83" />
 						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="3931" Label="[UIModel]3932" Left="[float]5" RefnumType="[Type]@6b63cfc276b84fa8a0fb3fac386e6220" Top="[float]4756" Value="{ClusterBinding FieldName=UDP\ Receiver_5}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]16" Id="3932" LabelOwner="[UIModel]3931" Left="[float]5" Text="[string]UDP Receiver_5" Top="[float]4733" Width="[float]83" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="4203" Label="[UIModel]4204" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4819" Value="{ClusterBinding FieldName=receive\ queue_2}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="4204" LabelOwner="[UIModel]4203" Left="[float]5" Text="[string]receive queue_2" Top="[float]4796" Width="[float]86" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="4205" Label="[UIModel]4206" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4882" Value="{ClusterBinding FieldName=receive\ queue_3}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="4206" LabelOwner="[UIModel]4205" Left="[float]5" Text="[string]receive queue_3" Top="[float]4859" Width="[float]86" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="4207" Label="[UIModel]4208" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]4945" Value="{ClusterBinding FieldName=receive\ queue_4}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="4208" LabelOwner="[UIModel]4207" Left="[float]5" Text="[string]receive queue_4" Top="[float]4922" Width="[float]86" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]40" Id="4209" Label="[UIModel]4210" Left="[float]5" RefnumType="[Type]@0c873cc365734e2db884af03a7e9a5ab" Top="[float]5008" Value="{ClusterBinding FieldName=receive\ queue_5}" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="4210" LabelOwner="[UIModel]4209" Left="[float]5" Text="[string]receive queue_5" Top="[float]4985" Width="[float]86" />
 					</Cluster>
-					<Label Height="[float]16" Id="212" LabelOwner="[UIModel]15" Left="[float]169" Text="[string]session" Top="[float]21" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
+					<Label Height="[float]16" Id="212" LabelOwner="[UIModel]15" Left="[float]179" Text="[string]session" Top="[float]0" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="fa320549550d4b0b8b39529cff1cc850">
+		<p.TypeReference TypeId="fde022d0115347b9841ac784e72f0f62">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="FPGA interface">
@@ -790,6 +802,54 @@
 							<Attributed>
 								<AttributedType>
 									<Composite RefId="6" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="receive queue_2">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="receive queue_3">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="receive queue_4">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
+								</AttributedType>
+								<AttributeValues>
+									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+								</AttributeValues>
+							</Attributed>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="receive queue_5">
+						<DataType>
+							<Attributed>
+								<AttributedType>
+									<Composite RefId="2" />
 								</AttributedType>
 								<AttributeValues>
 									<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
