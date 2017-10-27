@@ -2,80 +2,80 @@
 <CompilationResults.xml Version="2">
   <BuildInformation>
     <Family>kintex7</Family>
-    <BuildSpecSourceName>:USRP_2:STA\ 40</BuildSpecSourceName>
-    <CompileServer>de-dre-fpgacompilefarm</CompileServer>
+    <BuildSpecSourceName>:USRP:STA\ 40</BuildSpecSourceName>
+    <CompileServer>localhost</CompileServer>
     <ResourceThreshold>80</ResourceThreshold>
   </BuildInformation>
   <CompileStatus State="Success">
     <CurrentStep>Generate Programming File</CurrentStep>
     <ConnectionState>Completed</ConnectionState>
-    <LocalTime>0:00:10:36.9053569</LocalTime>
-    <XilinxTime>0:00:59:10.1666031</XilinxTime>
+    <LocalTime>0:00:05:37.2735414</LocalTime>
+    <XilinxTime>0:02:03:04.1075159</XilinxTime>
   </CompileStatus>
   <CompileSteps>
     <Step Name="Analyzing Diagrams">
       <Status>Done</Status>
       <Type>Building</Type>
-      <Duration>0:00:03:05.3526326</Duration>
+      <Duration>0:00:00:56.8088301</Duration>
     </Step>
     <Step Name="Building">
       <Status>Done</Status>
       <Type>Building</Type>
-      <Duration>0:00:07:15.1520047</Duration>
+      <Duration>0:00:04:14.3071271</Duration>
     </Step>
     <Step Name="Transferring">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:03.8238728</Duration>
+      <Duration>0:00:00:12.1513217</Duration>
     </Step>
     <Step Name="Waiting">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:12.5768468</Duration>
+      <Duration>0:00:00:14.0062625</Duration>
     </Step>
     <Step Name="CoreGenerator">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:04.4968162</Duration>
+      <Duration>0:00:00:03.1303697</Duration>
     </Step>
     <Step Name="Synthesize - Vivado">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:33:03.2599578</Duration>
+      <Duration>0:00:58:32.2044049</Duration>
     </Step>
     <Step Name="Optimize Logic">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:02:32.1731057</Duration>
+      <Duration>0:00:04:25.1710239</Duration>
     </Step>
     <Step Name="Place">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:09:28.2126021</Duration>
+      <Duration>0:00:13:38.8190499</Duration>
     </Step>
     <Step Name="Optimize Timing">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:48:17.2324679</Duration>
+      <Duration>0:00:30:39.5689665</Duration>
     </Step>
     <Step Name="Route">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:07:18.2454882</Duration>
+      <Duration>0:00:10:29.5174090</Duration>
     </Step>
     <Step Name="Generate Programming File">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:03:34.6886453</Duration>
+      <Duration>0:00:05:15.6960050</Duration>
     </Step>
   </CompileSteps>
   <ReportList>
     <Report Name="Estimated Device Utilization (Synthesize)" Type="Utilization">
       <ReportItem>
         <Resource>Slice Registers</Resource>
-        <Used>101762</Used>
+        <Used>104922</Used>
         <Total>508400</Total>
-        <Percent>20.02</Percent>
+        <Percent>20.64</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>DSP</Resource>
@@ -85,23 +85,23 @@
       </ReportItem>
       <ReportItem>
         <Resource>Block RAMs</Resource>
-        <Used>168</Used>
+        <Used>176</Used>
         <Total>795</Total>
-        <Percent>21.13</Percent>
+        <Percent>22.14</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>Slice LUTs</Resource>
-        <Used>72953</Used>
+        <Used>75683</Used>
         <Total>254200</Total>
-        <Percent>28.70</Percent>
+        <Percent>29.77</Percent>
       </ReportItem>
     </Report>
     <Report Name="Final Device Utilization (Place)" Type="Utilization">
       <ReportItem>
         <Resource>Slice Registers</Resource>
-        <Used>98266</Used>
+        <Used>101317</Used>
         <Total>508400</Total>
-        <Percent>19.33</Percent>
+        <Percent>19.93</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>DSP</Resource>
@@ -111,21 +111,21 @@
       </ReportItem>
       <ReportItem>
         <Resource>Block RAMs</Resource>
-        <Used>150</Used>
+        <Used>158</Used>
         <Total>795</Total>
-        <Percent>18.87</Percent>
+        <Percent>19.87</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>Slice LUTs</Resource>
-        <Used>61777</Used>
+        <Used>64196</Used>
         <Total>254200</Total>
-        <Percent>24.30</Percent>
+        <Percent>25.25</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>Total Slices</Resource>
-        <Used>25470</Used>
+        <Used>24850</Used>
         <Total>63550</Total>
-        <Percent>40.08</Percent>
+        <Percent>39.10</Percent>
       </ReportItem>
     </Report>
   </ReportList>
