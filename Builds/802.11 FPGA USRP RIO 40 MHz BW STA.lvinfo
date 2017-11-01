@@ -9,71 +9,71 @@
   <CompileStatus State="Success">
     <CurrentStep>Generate Programming File</CurrentStep>
     <ConnectionState>Completed</ConnectionState>
-    <LocalTime>0:00:05:37.2735414</LocalTime>
-    <XilinxTime>0:02:03:04.1075159</XilinxTime>
+    <LocalTime>0:00:05:04.9469242</LocalTime>
+    <XilinxTime>0:02:07:27.2752658</XilinxTime>
   </CompileStatus>
   <CompileSteps>
     <Step Name="Analyzing Diagrams">
       <Status>Done</Status>
       <Type>Building</Type>
-      <Duration>0:00:00:56.8088301</Duration>
+      <Duration>0:00:00:01.5392817</Duration>
     </Step>
     <Step Name="Building">
       <Status>Done</Status>
       <Type>Building</Type>
-      <Duration>0:00:04:14.3071271</Duration>
+      <Duration>0:00:04:44.7146558</Duration>
     </Step>
     <Step Name="Transferring">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:12.1513217</Duration>
+      <Duration>0:00:00:02.6522703</Duration>
     </Step>
     <Step Name="Waiting">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:14.0062625</Duration>
+      <Duration>0:00:00:16.0407164</Duration>
     </Step>
     <Step Name="CoreGenerator">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:00:03.1303697</Duration>
+      <Duration>0:00:00:03.1283999</Duration>
     </Step>
     <Step Name="Synthesize - Vivado">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:58:32.2044049</Duration>
+      <Duration>0:00:57:28.1630642</Duration>
     </Step>
     <Step Name="Optimize Logic">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:04:25.1710239</Duration>
+      <Duration>0:00:04:27.3983488</Duration>
     </Step>
     <Step Name="Place">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:13:38.8190499</Duration>
+      <Duration>0:00:13:42.3418791</Duration>
     </Step>
     <Step Name="Optimize Timing">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:30:39.5689665</Duration>
+      <Duration>0:00:05:02.2049060</Duration>
     </Step>
     <Step Name="Route">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:10:29.5174090</Duration>
+      <Duration>0:00:41:22.7118257</Duration>
     </Step>
     <Step Name="Generate Programming File">
       <Status>Done</Status>
       <Type>XilinxCompile</Type>
-      <Duration>0:00:05:15.6960050</Duration>
+      <Duration>0:00:05:21.3268354</Duration>
     </Step>
   </CompileSteps>
   <ReportList>
     <Report Name="Estimated Device Utilization (Synthesize)" Type="Utilization">
       <ReportItem>
         <Resource>Slice Registers</Resource>
-        <Used>104922</Used>
+        <Used>104937</Used>
         <Total>508400</Total>
         <Percent>20.64</Percent>
       </ReportItem>
@@ -91,7 +91,7 @@
       </ReportItem>
       <ReportItem>
         <Resource>Slice LUTs</Resource>
-        <Used>75683</Used>
+        <Used>75680</Used>
         <Total>254200</Total>
         <Percent>29.77</Percent>
       </ReportItem>
@@ -99,7 +99,7 @@
     <Report Name="Final Device Utilization (Place)" Type="Utilization">
       <ReportItem>
         <Resource>Slice Registers</Resource>
-        <Used>101317</Used>
+        <Used>101332</Used>
         <Total>508400</Total>
         <Percent>19.93</Percent>
       </ReportItem>
@@ -117,15 +117,15 @@
       </ReportItem>
       <ReportItem>
         <Resource>Slice LUTs</Resource>
-        <Used>64196</Used>
+        <Used>64231</Used>
         <Total>254200</Total>
-        <Percent>25.25</Percent>
+        <Percent>25.27</Percent>
       </ReportItem>
       <ReportItem>
         <Resource>Total Slices</Resource>
-        <Used>24850</Used>
+        <Used>25119</Used>
         <Total>63550</Total>
-        <Percent>39.10</Percent>
+        <Percent>39.53</Percent>
       </ReportItem>
     </Report>
   </ReportList>
